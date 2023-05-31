@@ -26,7 +26,7 @@ Découvrez les nouveautés du service de réplication dans BlueXP (anciennement 
 
 Vous pouvez désormais répliquer des données d'un système de fichiers Amazon FSX pour ONTAP vers Cloud Volumes ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
 
 
 
@@ -42,7 +42,7 @@ Vous pouvez désormais répliquer des données d'un système de fichiers Amazon 
 * Cluster ONTAP sur site
 
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
 
 
 
@@ -54,7 +54,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 Vous pouvez désormais répliquer des données à partir d'un système Cloud Volumes ONTAP ou d'un cluster ONTAP sur site vers un système de fichiers Amazon FSX pour ONTAP.
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
 
 
 
@@ -66,4 +66,4 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 Nous avons modifié l'onglet réplication pour faciliter l'utilisation et pour adapter l'apparence actuelle de l'interface utilisateur Cloud Manager.
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-replication/main/media/replication.gif["Capture d'écran de l'onglet réplication reconçue dans Cloud Manager qui affiche la liste des relations de volumes."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Capture d'écran de l'onglet réplication reconçue dans Cloud Manager qui affiche la liste des relations de volumes."]
