@@ -86,3 +86,18 @@ BlueXP prend en charge des configurations de protection des données simples, sa
 * Dans une configuration en panne, la réplication se produit du volume A vers plusieurs destinations.
 * Dans une configuration en cascade, la réplication s'effectue du volume A au volume B et du volume B au volume C.
 
+
+
+
+== Répliquez les données à l'aide de la sauvegarde et de la restauration BlueXP
+
+À partir de la version BlueXP Connector 3.9.31, la sauvegarde et la restauration BlueXP vous permettent de répliquer des données entre des volumes sur des systèmes ONTAP distincts à l'aide des technologies SnapMirror et SnapVault. Par conséquent, si vous prévoyez de répliquer des données sur d'autres systèmes ONTAP et de créer des sauvegardes des mêmes données vers un stockage objet, il peut être préférable d'utiliser https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Sauvegarde et restauration BlueXP"^] vous pouvez ainsi gérer vos besoins de protection des données avec un seul service.
+
+Actuellement, les fonctionnalités suivantes sont uniquement prises en charge dans le service de réplication BlueXP, et non lors de l'utilisation de la fonctionnalité de réplication de la sauvegarde et de la restauration BlueXP.
+
+* Il n'y a pas de prise en charge d'une configuration en cascade où la réplication se produit du volume A au volume B, puis du volume B au volume C.
+* La réplication de données depuis ou vers les systèmes FSX pour ONTAP n'est pas prise en charge.
+* La création d'une réplication ponctuelle d'un volume n'est pas prise en charge.
+
+
+Par conséquent, si vous avez besoin de l'une de ces fonctionnalités, utilisez la réplication BlueXP.
