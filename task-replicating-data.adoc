@@ -28,7 +28,7 @@ Environnements de travail:: Si ce n'est déjà fait, vous devez créer les envir
 * https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/task-getting-started-fsx.html["Créez un environnement de travail Amazon FSX pour ONTAP"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["Lancement d'Cloud Volumes ONTAP dans AWS"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["Lancez Cloud Volumes ONTAP dans Azure"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Lancez Cloud Volumes ONTAP dans GCP"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Lancez Cloud Volumes ONTAP dans Google Cloud"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-adding-systems.html["Ajout de systèmes Cloud Volumes ONTAP existants"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Découvrir les clusters ONTAP"^]
 
@@ -121,4 +121,4 @@ Plusieurs plannings par défaut sont disponibles. Si vous souhaitez un autre pla
 
 
 .Résultat
-BlueXP démarre le processus de réplication des données. Vous pouvez afficher des détails sur la relation de volume dans le service de réplication.
+BlueXP démarre le processus de réplication des données. Vous pouvez afficher des détails sur la relation de volume à partir du service de réplication BlueXP.

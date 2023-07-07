@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: 'Découvrez les nouveautés du service de réplication dans BlueXP (anciennement Cloud Manager).' 
+summary: Découvrez les nouveautés de la réplication BlueXP. 
 ---
 = Quoi de neuf
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Découvrez les nouveautés du service de réplication dans BlueXP (anc
 
 
 [role="lead"]
-Découvrez les nouveautés du service de réplication dans BlueXP (anciennement Cloud Manager).
+Découvrez les nouveautés de la réplication BlueXP.
 
 
 
@@ -64,6 +64,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Dé
 
 === Interface reconçue
 
-Nous avons modifié l'onglet réplication pour faciliter l'utilisation et pour adapter l'apparence actuelle de l'interface utilisateur Cloud Manager.
+Nous avons repensé le service de réplication pour qu'il soit facile à utiliser et qu'il corresponde à l'apparence actuelle de l'interface utilisateur.
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-replication/main/media/replication.gif["Capture d'écran de l'onglet réplication reconçue dans Cloud Manager qui affiche la liste des relations de volumes."]

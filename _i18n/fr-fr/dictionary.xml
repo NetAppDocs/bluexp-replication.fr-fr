@@ -9,7 +9,6 @@
   <block id="64c9a9d3cd7c3ca76cf19b78a96c9b79" category="inline-link">Créez un environnement de travail Amazon FSX pour ONTAP</block>
   <block id="a3272fd5c4bd1903de9b1b2f5e1665a8" category="inline-link">Lancement d'Cloud Volumes ONTAP dans AWS</block>
   <block id="70c84621a7336f391b4b7df86b5f1396" category="inline-link">Lancez Cloud Volumes ONTAP dans Azure</block>
-  <block id="ce3503849689227dd8014f8ed3f5cb5e" category="inline-link">Lancez Cloud Volumes ONTAP dans GCP</block>
   <block id="6c0fb6078ec778ca2319e375a19e994b" category="inline-link">Ajout de systèmes Cloud Volumes ONTAP existants</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="inline-link">Découvrir les clusters ONTAP</block>
   <block id="3fbe74eae84714fcfdd21edafe54f77f" category="list-text">Exigences de version</block>
@@ -55,7 +54,6 @@
   <block id="d3b2b050bb9494cae757b48c9e54e869" category="list-text">*Programme* : choisissez une copie unique ou un horaire récurrent.</block>
   <block id="eab21f14d3f6250b2de779be87b8404e" category="paragraph">Plusieurs plannings par défaut sont disponibles. Si vous souhaitez un autre planning, vous devez créer une nouvelle planification sur le cluster _destination_ à l'aide de System Manager.</block>
   <block id="b651c9a4bed137033ce440a73927ffcf" category="list-text">*Revue*: Passez en revue vos sélections et cliquez sur *Go*.</block>
-  <block id="b5346aabfb07747172bac9a45326a463" category="paragraph">BlueXP démarre le processus de réplication des données. Vous pouvez afficher des détails sur la relation de volume dans le service de réplication.</block>
   <block id="30f8f8912c844cee545e88597d12bbab" category="summary">Après avoir configuré la réplication des données entre deux systèmes, vous pouvez gérer la planification et la relation de réplication des données de BlueXP.</block>
   <block id="2e4ca84ff13f65389599985c5d2a9f08" category="doc">Gérer les plannings et les relations</block>
   <block id="3b5a034beecbb1a2d60171dfe195f2df" category="list-text">Dans le menu de navigation, sélectionnez *protection &gt; réplication*.</block>
@@ -90,7 +88,6 @@
   <block id="09cd2e52d52004647bc6c39549be0b94" category="cell">Supprime la relation de protection des données entre les volumes source et de destination, ce qui signifie que la réplication des données n'a plus lieu entre les volumes. Cette action n'active pas le volume de destination pour l'accès aux données. Cette action supprime également la relation entre pairs de cluster et la relation entre la machine virtuelle de stockage (SVM), en l'absence d'autres relations de protection des données entre les systèmes.</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">Après avoir sélectionné une action, BlueXP met à jour la relation ou le programme.</block>
   <block id="4d8208136280cbaba3cab05e5996a3a8" category="summary">Répliquez les données entre les systèmes de stockage ONTAP pour la sauvegarde et la reprise d'activité dans le cloud ou entre les clouds.</block>
-  <block id="dc699e704dec5502b9aa219f9381ad94" category="doc">La documentation relative à la réplication</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">S'inscrire pour obtenir de l'aide</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Présentation de l'inscription au support</block>
@@ -157,12 +154,10 @@
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilisez le chat du produit</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Soumettre un dossier non technique à<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="aeeec0576922eb4490b5fabadc6c4e36" category="summary">NetApp SnapMirror réplique les données à des vitesses élevées sur un réseau LAN ou WAN, vous garantissant ainsi une haute disponibilité et une réplication rapide des données dans les environnements traditionnels et virtualisés. En répliquant vos données sur des systèmes de stockage NetApp, puis en les mettant régulièrement à jour, vous disposez de données actualisées et accessibles dès que vous en avez besoin. Aucun serveur de réplication externe n'est requis.</block>
-  <block id="e60519215887d589e148f68a2f5d2a06" category="doc">En savoir plus sur le service de réplication</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caractéristiques</block>
   <block id="58598c037819ab3e58b8ee6d0d634246" category="list-text">Fiabilité de l'environnement de reprise après incident avec une haute disponibilité.</block>
   <block id="6c12db213eb53a8ef7d470254e0395be" category="list-text">La réplication efficace au niveau des blocs entre le stockage ONTAP est rapide et efficace, avec des points de restauration granulaires pour la reprise après incident et la sauvegarde.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Le coût</block>
-  <block id="51d8157d48cfe9c64b3f0f386d2e4e7b" category="paragraph">NetApp ne vous facture pas l'utilisation du service de réplication, mais vous devrez vérifier votre fournisseur de cloud si les frais d'entrée et de sortie des données sont applicables.</block>
   <block id="744db3ac634a7aa94269971ca3dc965e" category="section-title">Environnements de travail pris en charge</block>
   <block id="e462524abde8989bedbc1209f4bf2a8b" category="paragraph">BlueXP permet la réplication des données entre les types d'environnements de travail suivants.</block>
   <block id="9fd9b4e1af5d0e8b46abbd52a5c740cd" category="cell">Environnement de travail source</block>
@@ -192,7 +187,6 @@
   <block id="82a50f0f6176439f52db3f00249bb062" category="paragraph">La stratégie Snapshot par défaut crée des copies Snapshot toutes les heures, quotidiennes et hebdomadaires, conservant six copies Snapshot toutes les heures, deux copies quotidiennes et deux copies Snapshot hebdomadaires.</block>
   <block id="ffd11b2f9d7cbf737e9c7fb470bccfa5" category="paragraph">Vous pouvez facilement utiliser une stratégie de sauvegarde par défaut avec la stratégie Snapshot par défaut. Les règles de sauvegarde par défaut répliquent les copies Snapshot quotidiennes et hebdomadaires, en conservant sept copies Snapshot quotidiennes et 52 copies Snapshot hebdomadaires.</block>
   <block id="148658bf400475bd13a5edab6c870d2f" category="paragraph">Si vous créez des règles personnalisées, les étiquettes définies par ces règles doivent correspondre. Vous pouvez créer des règles personnalisées à l'aide de System Manager.</block>
-  <block id="c5a8374ee9fb158f61739b8d5bd880ef" category="summary">Vous pouvez répliquer des données entre des environnements de travail BlueXP. Vous pouvez choisir une réplication unique pour le déplacement des données vers et depuis le cloud, ou encore un calendrier récurrent pour la reprise d'activité ou la conservation à long terme.</block>
   <block id="3efdcfead8281aadde8513c58855434b" category="paragraph">Vous aurez peut-être besoin d'aide pour choisir une stratégie de réplication lorsque vous configurez la réplication de données dans BlueXP. Une stratégie de réplication définit la manière dont le système de stockage réplique les données d'un volume source vers un volume de destination.</block>
   <block id="e40495076bb4b5e4783f1d1ee0ad0a16" category="section-title">Quelles sont les règles de réplication</block>
   <block id="e19e3a549d24cbd0e2a4d7afde5135b9" category="paragraph">Le système d'exploitation ONTAP crée automatiquement des sauvegardes appelées copies Snapshot. Une copie Snapshot est une image en lecture seule d'un volume qui capture l'état du système de fichiers à un moment donné.</block>
@@ -215,7 +209,6 @@
   <block id="35b902a7b4de8c8923d5c5b39b814e95" category="paragraph">Une stratégie de sauvegarde conserve généralement les copies Snapshot plus longtemps qu'elles ne sont conservées sur le volume source :</block>
   <block id="bf2150ef9467439727e9ba26af10d436" category="inline-image-macro">Cette illustration présente les copies Snapshot sur un volume source et un volume de destination de sauvegarde qui inclut davantage de copies Snapshot, car SnapVault conserve les copies Snapshot pour la conservation à long terme.</block>
   <block id="ad8bcd8268bd244944d22d0323e8d319" category="paragraph"><block ref="ad8bcd8268bd244944d22d0323e8d319" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eb26b2f0ab3f4144da7840791e9e9cf0" category="summary">Découvrez les nouveautés du service de réplication dans BlueXP (anciennement Cloud Manager).</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">Quoi de neuf</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">18 septembre 2022</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX pour ONTAP vers Cloud Volumes ONTAP</block>
@@ -230,7 +223,6 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">Vous pouvez désormais répliquer des données à partir d'un système Cloud Volumes ONTAP ou d'un cluster ONTAP sur site vers un système de fichiers Amazon FSX pour ONTAP.</block>
   <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">5 mai 2021</block>
   <block id="1473f0729c8bea54a5077a19ab764c47" category="section-title">Interface reconçue</block>
-  <block id="5a0a1bceb9fa4494f5bd231c6eb87a5b" category="paragraph">Nous avons modifié l'onglet réplication pour faciliter l'utilisation et pour adapter l'apparence actuelle de l'interface utilisateur Cloud Manager.</block>
   <block id="0f9405518138d20fd96d78fe19dabf84" category="inline-image-macro">Capture d'écran de l'onglet réplication reconçue dans Cloud Manager qui affiche la liste des relations de volumes.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Mentions légales</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Les mentions légales donnent accès aux déclarations de copyright, aux marques, aux brevets, etc.</block>
@@ -246,9 +238,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">Notice pour BlueXP 3.9</block>
-  <block id="03f975e839e4278228720a5d19656288" category="paragraph"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
-  <block id="7596270426e8c5f92be308ff330e0e64" category="sidebar">Documents de réplication</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de mise à jour</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Commencez</block>
   <block id="c27a58445f6be9881526a37e46bb7d26" category="sidebar">Gérez la réplication des données</block>
@@ -256,7 +245,6 @@
   <block id="fa26829830efe73376071e3b30f66d6a" category="sidebar">Règles de réplication</block>
   <block id="9f02509e5496e861df4c341dba05386e" category="sidebar">Politiques de sauvegarde</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Connaissances et support</block>
-  <block id="96dbe21e840f318daaf871cafa9f1d1f" category="sidebar">Utilisez le service de réplication</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Communauté sur les blogs</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Communauté NetApp</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">Blog BlueXP</block>
@@ -320,7 +308,6 @@
   <block id="334141378cc136fbeac9f49b8712a21c" category="list-text"><block ref="334141378cc136fbeac9f49b8712a21c" category="inline-link-rx"></block></block>
   <block id="58daf0847a76a7b1620f3558f8c5aaa6" category="list-text"><block ref="58daf0847a76a7b1620f3558f8c5aaa6" category="inline-link-rx"></block></block>
   <block id="ae344581f45a6d4593a2788f5e30015e" category="list-text"><block ref="ae344581f45a6d4593a2788f5e30015e" category="inline-link-rx"></block></block>
-  <block id="33f4a6dc8fe8627d8c8d45e16d3010a3" category="list-text"><block ref="33f4a6dc8fe8627d8c8d45e16d3010a3" category="inline-link-rx"></block></block>
   <block id="8fdf2adbca771b61e226157cc48ae918" category="list-text"><block ref="8fdf2adbca771b61e226157cc48ae918" category="inline-link-rx"></block></block>
   <block id="c42ed38279c50e4c5755f93ea09a9661" category="list-text"><block ref="c42ed38279c50e4c5755f93ea09a9661" category="inline-link-rx"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>.</block>
@@ -369,4 +356,16 @@
   <block id="baf48e0aa2c3928a76f5ae4cfa863af0" category="list-text">La réplication de données depuis ou vers les systèmes FSX pour ONTAP n'est pas prise en charge.</block>
   <block id="0c23616cc33d59b54422397ae3ade277" category="list-text">La création d'une réplication ponctuelle d'un volume n'est pas prise en charge.</block>
   <block id="8ac492b9cd41bb365b829b711997f353" category="paragraph">Par conséquent, si vous avez besoin de l'une de ces fonctionnalités, utilisez la réplication BlueXP.</block>
+  <block id="62390de09bd56fbb6d4533a188f4f201" category="doc">Documentation sur la réplication BlueXP</block>
+  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link">Lancez Cloud Volumes ONTAP dans Google Cloud</block>
+  <block id="626952d60302f9977a04f592cec299fb" category="list-text"><block ref="626952d60302f9977a04f592cec299fb" category="inline-link-rx"></block></block>
+  <block id="a7215108d548ffe7763ce1f9198d8994" category="paragraph">BlueXP démarre le processus de réplication des données. Vous pouvez afficher des détails sur la relation de volume à partir du service de réplication BlueXP.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Note pour BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="70f977daf295113b60f6c4b035cb3f02" category="doc">Découvrez la réplication BlueXP</block>
+  <block id="74ddb38c3b9b1f58e8ec0c893e2acc2c" category="paragraph">NetApp ne vous facture pas pour l'utilisation de la réplication BlueXP, mais vous devez vérifier votre fournisseur cloud pour connaître les frais d'entrée et de sortie des données applicables.</block>
+  <block id="51ec975d41f1829ab090b8f898af8aa9" category="summary">Découvrez les nouveautés de la réplication BlueXP.</block>
+  <block id="50839a9360a2ad4070bd1ba04d7e502a" category="paragraph">Nous avons repensé le service de réplication pour qu'il soit facile à utiliser et qu'il corresponde à l'apparence actuelle de l'interface utilisateur.</block>
+  <block id="d87a7b7b52c9dad26684c49099c92944" category="sidebar">Documents de réplication BlueXP</block>
+  <block id="e7c71db0ba7d050d4d85bc8cab04fc33" category="sidebar">Utilisez la réplication BlueXP</block>
 </blocks>
