@@ -23,7 +23,7 @@ Après avoir configuré la réplication des données entre deux systèmes, vous 
 
 NOTE: Si l'état d'une relation est inactif et que l'état Miroir n'est pas initialisé, vous devez initialiser la relation à partir du système de destination pour que la réplication des données se produise selon le planning défini. Vous pouvez initialiser la relation à l'aide de System Manager ou de l'interface de ligne de commande (CLI). Ces états peuvent apparaître en cas de défaillance du système de destination, puis revenir en ligne.
 
-. Cliquez sur le menu d'action d'une relation de volume et choisissez l'une des actions disponibles.
+. Sélectionnez le menu d'action d'une relation de volume et choisissez l'une des actions disponibles.
 +
 image:screenshot_replication_managing.gif["Capture d'écran : affiche la liste des actions disponibles sur la page Etat de la réplication."]
 
