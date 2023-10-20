@@ -4,7 +4,7 @@ permalink: concept-backup-policies.html
 keywords: snapvault, archive, archiving, retention 
 summary: Contrairement aux règles Mirror, les règles Backup SnapVault répliquent des copies Snapshot spécifiques sur un volume de destination. Il est important de comprendre le fonctionnement des stratégies de sauvegarde si vous souhaitez utiliser vos propres règles au lieu des règles par défaut. 
 ---
-= En savoir plus sur les règles de réplication
+= En savoir plus sur les stratégies de sauvegarde
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

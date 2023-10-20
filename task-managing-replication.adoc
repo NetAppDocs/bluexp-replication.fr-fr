@@ -4,7 +4,7 @@ permalink: task-managing-replication.html
 keywords: replication policy, policy, replication, replicating, snapmirror, snapvault, data replication, source, destination, schedule, relationship, break, resync, max transfer, maximum transfer rate, rate, transfer rate, reverse resync, status, replication status, disaster recovery, DR, archive, archiving, retention 
 summary: Après avoir configuré la réplication des données entre deux systèmes, vous pouvez gérer la planification et la relation de réplication des données de BlueXP. 
 ---
-= Gérer les plannings et les relations
+= Gérez la réplication des données
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

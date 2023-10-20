@@ -18,7 +18,7 @@ Vous pouvez répliquer des données entre des environnements de travail ONTAP en
 
 
 
-== Exigences de réplication des données
+== Étape 1 : examen des exigences en matière de réplication des données
 
 Avant de pouvoir répliquer des données, nous vous recommandons de vérifier que vos exigences spécifiques sont satisfaites pour Cloud Volumes ONTAP, les clusters ONTAP sur site ou Amazon FSX pour ONTAP.
 
@@ -76,7 +76,7 @@ Conditions spécifiques à Amazon FSX pour ONTAP::
 
 
 
-== Réplication des données entre les systèmes
+== Étape 2 : réplication des données entre les systèmes
 
 Vous pouvez répliquer vos données en choisissant une fonction de réplication unique des données, qui peut vous aider à les déplacer depuis et vers le cloud, ou encore à planifier des périodes récurrentes, ce qui peut vous aider dans la reprise d'activité ou la conservation à long terme.
 

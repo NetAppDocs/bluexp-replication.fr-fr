@@ -14,7 +14,9 @@ sidebar:
   - title: Documents de réplication BlueXP
     url: "/index.html"
   - title: Notes de mise à jour
-    url: "/whats-new.html"
+    entries:
+    - title: Quoi de neuf
+      url: "/whats-new.html"
   - title: Commencez
     entries:
     - title: Découvrez la réplication BlueXP
@@ -23,11 +25,11 @@ sidebar:
       url: "/task-replicating-data.html"
   - title: Gérez la réplication des données
     url: "/task-managing-replication.html"
-  - title: Concepts
+  - title: En savoir plus >>
     entries:
-    - title: Règles de réplication
+    - title: En savoir plus sur les règles de réplication
       url: "/concept-replication-policies.html"
-    - title: Politiques de sauvegarde
+    - title: En savoir plus sur les stratégies de sauvegarde
       url: "/concept-backup-policies.html"
   - title: Connaissances et support
     entries:
