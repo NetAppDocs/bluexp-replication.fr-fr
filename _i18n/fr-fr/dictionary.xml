@@ -21,7 +21,6 @@
   <block id="8c4a805dde66a7461e7760fe982d066f" category="list-text">Une licence SnapMirror active doit être installée.</block>
   <block id="1fbce003d68708feb24931b9e6366f50" category="list-text">Les clusters ONTAP doivent répondre à des exigences supplémentaires en termes de sous-réseau, de port, de pare-feu et de cluster.</block>
   <block id="d7bb556723e915c43fe4fd9b0f90d545" category="inline-link">Afficher les conditions préalables au peering de cluster dans la documentation de ONTAP</block>
-  <block id="54aa7fca826fcb0f6caefb80a82fe037" category="paragraph"><block ref="54aa7fca826fcb0f6caefb80a82fe037" category="inline-link-rx"></block></block>
   <block id="4f473a2a941d4fd7b4a68e3cd98e934c" category="list-text">Conditions spécifiques à Amazon FSX pour ONTAP</block>
   <block id="0b2859515841917b8dcb93767366e15a" category="list-text">Si Cloud Volumes ONTAP fait partie de la relation, assurer la connectivité entre les VPC en activant le peering VPC ou en utilisant une passerelle de transit.</block>
   <block id="7cdb830daf27295ef13d47b3f05f431f" category="list-text">Si un cluster ONTAP sur site fait partie de la relation, assurez-vous que la connectivité entre votre réseau sur site et le VPC AWS s'effectue à l'aide d'une connexion Direct Connect ou VPN.</block>
@@ -366,4 +365,5 @@
   <block id="dbfdbb36eb5065fce9a76d7ae82068ab" category="list-text"><block ref="dbfdbb36eb5065fce9a76d7ae82068ab" category="inline-link-rx"></block></block>
   <block id="cb4d7a152cb523ddb41e8b55186ecaf9" category="list-text">Si le cluster se trouve sur votre site, vous devez disposer d'une connexion entre votre réseau d'entreprise et votre réseau virtuel dans le cloud. Il s'agit généralement d'une connexion VPN.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilise Microsoft Entra ID comme fournisseur d'identité pour les services d'authentification spécifiques à la prise en charge et à l'octroi de licences.</block>
+  <block id="97d76d6ad65338f9dc1e8196be488382" category="paragraph"><block ref="97d76d6ad65338f9dc1e8196be488382" category="inline-link-rx"></block></block>
 </blocks>
