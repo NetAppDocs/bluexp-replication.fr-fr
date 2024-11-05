@@ -1,0 +1,11 @@
+= Prise en charge d'Amazon FSX pour ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Prise en charge d'Amazon FSX pour ONTAP
+
+Vous pouvez désormais répliquer des données à partir d'un système Cloud Volumes ONTAP ou d'un cluster ONTAP sur site vers un système de fichiers Amazon FSX pour ONTAP.
+
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Découvrez comment configurer la réplication des données"].
