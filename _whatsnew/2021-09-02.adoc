@@ -1,5 +1,7 @@
 = Prise en charge d'Amazon FSX pour ONTAP
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
