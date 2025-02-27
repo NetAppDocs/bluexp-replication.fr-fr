@@ -64,7 +64,7 @@ Découvrez comment effectuer une resynchronisation inverse, qui resynchronise le
 | Mise à jour | Lance un transfert incrémentiel pour mettre à jour le volume de destination. 
 
 
-| Supprimer | Supprime la relation de protection des données entre les volumes source et de destination, ce qui signifie que la réplication des données n'a plus lieu entre les volumes. Cette action n'active pas le volume de destination pour l'accès aux données. Cette action supprime également la relation entre pairs de cluster et la relation entre la machine virtuelle de stockage (SVM), en l'absence d'autres relations de protection des données entre les systèmes. 
+| Supprimer | Supprime la relation de protection des données entre les volumes source et de destination, ce qui signifie que la réplication des données n'a plus lieu entre les volumes. Cette action n'active pas le volume de destination pour l'accès aux données. 
 |===
 
 

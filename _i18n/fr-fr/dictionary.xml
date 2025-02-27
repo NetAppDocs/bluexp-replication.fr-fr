@@ -75,7 +75,6 @@
   <block id="06933067aafd48425d67bcb01bba5cb6" category="cell">Mise à jour</block>
   <block id="16685aa35f9f2843a357407642b0d7d9" category="cell">Lance un transfert incrémentiel pour mettre à jour le volume de destination.</block>
   <block id="f2a6c498fb90ee345d997f888fce3b18" category="cell">Supprimer</block>
-  <block id="09cd2e52d52004647bc6c39549be0b94" category="cell">Supprime la relation de protection des données entre les volumes source et de destination, ce qui signifie que la réplication des données n'a plus lieu entre les volumes. Cette action n'active pas le volume de destination pour l'accès aux données. Cette action supprime également la relation entre pairs de cluster et la relation entre la machine virtuelle de stockage (SVM), en l'absence d'autres relations de protection des données entre les systèmes.</block>
   <block id="b49c40e645fcbad07d8747fe60951eee" category="paragraph">Après avoir sélectionné une action, BlueXP met à jour la relation ou le programme.</block>
   <block id="4d8208136280cbaba3cab05e5996a3a8" category="summary">Répliquez les données entre les systèmes de stockage ONTAP pour la sauvegarde et la reprise d'activité dans le cloud ou entre les clouds.</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">Avant d'ouvrir un dossier de demande de support auprès du support technique NetApp, vous devez ajouter un compte sur le site de support NetApp à BlueXP, puis vous inscrire pour bénéficier du support.</block>
@@ -366,4 +365,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">L'association des informations d'identification du site de support NetApp à votre organisation BlueXP  est nécessaire pour activer les flux de travail clés suivants pour Cloud Volumes ONTAP :</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">L'association des informations d'identification NSS à votre organisation BlueXP  est différente du compte NSS associé à une connexion utilisateur BlueXP .</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">Ces informations d'identification NSS sont associées à votre identifiant d'organisation BlueXP  spécifique. Les utilisateurs qui appartiennent à l'organisation BlueXP  peuvent accéder à ces informations d'identification à partir de *support &gt; gestion NSS*.</block>
+  <block id="d1325501ee070fd499d61b4cb3ec234d" category="cell">Supprime la relation de protection des données entre les volumes source et de destination, ce qui signifie que la réplication des données n'a plus lieu entre les volumes. Cette action n'active pas le volume de destination pour l'accès aux données.</block>
 </blocks>
